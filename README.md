@@ -9,5 +9,7 @@ The slice is taken from a CT scan of a patient's chest.
 It has been anonymised using `dicomanon` in MATLAB.
 For information on other metadata, use `dicominfo`.
 
+![slice](data/slice.png "Slice")
+
 Two users segmented the trachea volume from the same data using [MIMICS](https://www.materialise.com/en/medical/software/mimics).
 The segmentations are exported as masks overlayed on the image slice.
